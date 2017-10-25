@@ -24,7 +24,7 @@ if [ "${num}" == "1" ]
 then
 cd /tmp
 rm -rf *.sh
-curl https://raw.githubusercontent.com/blademainer/miwifi-ss/master/r2d/r2d_ss.sh -o r2d_ss.sh
+curl https://raw.githubusercontent.com/saintmob/miwifi-ss/master/r2d/r2d_ss.sh -o r2d_ss.sh
 chmod -R 777 r2d_ss.sh
 ./r2d_ss.sh
 fi
